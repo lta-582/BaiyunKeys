@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 钥匙圆环（evenOdd 挖孔） -->
+    <path
+        android:fillColor="#ffffffff"
+        android:fillType="evenOdd"
+        android:pathData="M46,28 a14,14 0 1,0 0,28 a14,14 0 1,0 0,-28 Z M46,36 a6,6 0 1,0 0,12 a6,6 0 1,0 0,-12 Z" />
+    <!-- 钥匙柄 -->
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M56,38 L84,38 L84,45 L56,45 Z" />
+    <!-- 钥匙齿 -->
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M76,45 L83,45 L83,56 L76,56 Z" />
+</vector>
