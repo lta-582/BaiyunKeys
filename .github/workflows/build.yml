@@ -11,7 +11,7 @@ jobs:
           distribution: temurin
           java-version: '17'
       - name: Build debug APK
-        run: ./gradlew assembleDebug
+        run: bash ./gradlew assembleDebug
       - uses: actions/upload-artifact@v5
         with:
           name: apk
